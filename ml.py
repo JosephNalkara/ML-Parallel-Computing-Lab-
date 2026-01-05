@@ -40,3 +40,5 @@ lpo = LeavePOut(p=2)
 scores = cross_val_score(model, X, y, cv=lpo)
 
 print("Leave-P-Out Accuracy:", scores.mean())
+
+
